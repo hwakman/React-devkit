@@ -28,7 +28,7 @@ export default class NavBar extends Component {
                 </span>
 
                 <span>
-                    <button className="btn btn-outline-danger">Contact</button>
+                    <button className="btn btn-outline-danger" onClick={this.routerComp.bind(this,'contact')}>CONTACT</button>
                 </span>
             </div>
         </nav>
