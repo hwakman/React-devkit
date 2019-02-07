@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600');
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: #2A343B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+a {
+    color: lightgray;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
